@@ -15,7 +15,6 @@ const BeeAnimation = () => {
                 start: "top top",
                 end: "+=350%",
                 scrub: 1,
-                markers: true,
                 pin: true,
             },
         });
