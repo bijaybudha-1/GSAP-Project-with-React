@@ -1,0 +1,15 @@
+.honeybee {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 30;
+}
+
+.bg-image {
+    height: 100vh;
+    width: 100vw;
+    background: url("./assets/backgroundImage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
