@@ -1,10 +1,12 @@
+import TextAnimation from "../GSAP/TextAnimation";
+
 const ThirdSection = () => {
     return (
         <div className="bg-image">
             <section className="">
                 <div className="flex justify-center backdrop-blur-sm">
                     <div className="pl-10 w-3xl text-[#ead38f]">
-                        <h2 className="text-[17vw] ">02</h2>
+                        <TextAnimation number={"02"} />
                         <h3 className="font-bold text-5xl">
                             Most wasps are capable of stinging numerous times
                         </h3>

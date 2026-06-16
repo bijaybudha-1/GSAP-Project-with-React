@@ -1,9 +1,11 @@
+import TextAnimation from "../GSAP/TextAnimation";
+
 const SecondSection = () => {
     return (
         <div>
             <section className="h-screen w-screen bg-[linear-gradient(360deg,#009745_0%,#16a34a_50%,#003f1f_100%)]">
                 <div className="flex justify-between px-10">
-                    <h2 className="text-[17vw] text-[#ead38f]">01</h2>
+                    <TextAnimation number={"01"} />
                     <div className="w-xl flex flex-col gap-20 mt-24">
                         <h2 className="font-bold text-6xl ">
                             Wasp venom contains a pheromone that causes other

@@ -1,3 +1,5 @@
+import TextAnimation from "../GSAP/TextAnimation";
+
 const FourthSection = () => {
     return (
         <div className="h-screen w-screen bg-[linear-gradient(180deg,#009745_0%,#16a34a_50%,#003f1f_100%)]">
@@ -12,7 +14,7 @@ const FourthSection = () => {
                     </div>
                     <div>
                         <div className="pl-10 max-w-xl mr-20">
-                            <h2 className="text-[17vw] text-[#ead38f]">03</h2>
+                            <TextAnimation number={"03"} />
                             <h3 className="font-bold text-4xl">
                                 Though wasp stings hurt, symptoms normally
                                 improve after a few hours
